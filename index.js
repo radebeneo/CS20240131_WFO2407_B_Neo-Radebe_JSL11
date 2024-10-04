@@ -203,7 +203,7 @@ function addTask(event) {
       title: document.getElementById('title-input').value,
       description: document.getElementById('desc-input').value,
       status: document.getElementById('select-status').value,
-      
+      board: activeBoard
     };
     const newTask = createNewTask(task);
     if (newTask) {
