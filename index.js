@@ -24,6 +24,7 @@ const elements = {
   editTaskModal: document.querySelector('.edit-task-modal-window'),
   hideSideBarBtn: document.getElementById('hide-side-bar-btn'),
   showSideBarBtn: document.getElementById('show-side-bar-btn'),
+  themeSwitch: document.getElementById('switch'),
 }
 
 let activeBoard = ""
