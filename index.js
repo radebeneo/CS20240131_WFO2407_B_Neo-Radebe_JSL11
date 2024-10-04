@@ -258,6 +258,7 @@ function saveTaskChanges(taskId) {
   const updatedTask = {
     id: taskId,
     title: document.getElementById('edit-task-title-input').value,
+    description: document.getElementById('edit-task-desc-input').value,
 
   // Create an object with the updated task details
 
