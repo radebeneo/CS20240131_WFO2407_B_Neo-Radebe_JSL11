@@ -240,7 +240,8 @@ function openEditTaskModal(task) {
 
 
   // Call saveTaskChanges upon click of Save Changes button
- 
+  document.getElementById('save-task-changes-btn').addEventListener('click', () => saveTaskChanges(task.id));
+
 
   // Delete task using a helper function and close the task modal
 
