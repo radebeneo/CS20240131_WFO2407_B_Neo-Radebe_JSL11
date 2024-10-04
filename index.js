@@ -205,6 +205,7 @@ function addTask(event) {
       status: document.getElementById('select-status').value,
       board: activeBoard
     };
+
     const newTask = createNewTask(task);
     if (newTask) {
       addTaskToUI(newTask);
@@ -217,6 +218,7 @@ function addTask(event) {
 
 
 function toggleSidebar(show) {
+  const sidebar = document.getElementById('side-bar-div');
  
 }
 
