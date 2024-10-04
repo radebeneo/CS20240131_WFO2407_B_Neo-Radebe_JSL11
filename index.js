@@ -255,7 +255,8 @@ function openEditTaskModal(task) {
 
 function saveTaskChanges(taskId) {
   // Get new user inputs
-  
+  const updatedTask = {
+    id: taskId,
 
   // Create an object with the updated task details
 
