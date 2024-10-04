@@ -199,6 +199,8 @@ function addTask(event) {
 
   //Assign user input to the task object
     const task = {
+      id: Date.now(),
+      title: document.getElementById('title-input').value,
       
     };
     const newTask = createNewTask(task);
