@@ -220,11 +220,11 @@ function addTask(event) {
 function toggleSidebar(show) {
   const sidebar = document.getElementById('side-bar-div');
   sidebar.style.display = show ? 'flex' : 'none';
- 
+  localStorage.setItem('showSideBar', show.toString());
 }
 
 function toggleTheme() {
- 
+  const isLightTheme = document.body.classList.toggle('light-theme');
 }
 
 
