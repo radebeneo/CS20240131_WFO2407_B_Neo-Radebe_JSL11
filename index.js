@@ -261,12 +261,12 @@ function saveTaskChanges(taskId) {
     description: document.getElementById('edit-task-desc-input').value,
     status: document.getElementById('edit-select-status').value,
     board: activeBoard
-
+  };
   // Create an object with the updated task details
 
 
   // Update task using a hlper functoin
- 
+  updateTask(taskId, updatedTask);
 
   // Close the modal and refresh the UI to reflect the changes
 
