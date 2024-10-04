@@ -22,6 +22,7 @@ const elements = {
   columnDivs: document.querySelectorAll('.column-div'),
   modalWindow: document.getElementById('new-task-modal-window'),
   editTaskModal: document.querySelector('.edit-task-modal-window'),
+  hideSideBarBtn: document.getElementById('hide-side-bar-btn'),
 }
 
 let activeBoard = ""
