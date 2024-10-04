@@ -20,6 +20,7 @@ function initializeData() {
 const elements = {
   headerBoardName: document.getElementById('header-board-name'),
   columnDivs: document.querySelectorAll('.column-div'),
+  modalWindow: document.getElementById('new-task-modal-window'),
 }
 
 let activeBoard = ""
